@@ -8,7 +8,7 @@ struct ListNode {
     int val;
     ListNode *next;
     ListNode(int x) : val(x), next(NULL) {}
-    
+
 };
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
     string s1;
@@ -26,9 +26,9 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
     reverse(s2.begin(), s2.end());
     long long b = stoll(s2);
     string temp = to_string(a + b);
-    ListNode* res2 = new ListNode(temp[temp.size()-1] - '0');
+    ListNode* res2 = new ListNode(temp[temp.size() - 1] - '0');
     ListNode* res1 = res2;
-    for (int i = temp.size()-2; i >=0; i--) {
+    for (int i = temp.size() - 2; i >= 0; i--) {
         res2->next = new ListNode(temp[i] - '0');
         res2 = res2->next;
     }
@@ -40,24 +40,3 @@ int main() {
     ListNode* l2 = new ListNode(5);
     ListNode* res = addTwoNumbers(l1, l2);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
