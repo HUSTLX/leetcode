@@ -28,27 +28,6 @@ vector<vector<int>> threeSum(vector<int>& nums) {
 }
 
 int main() {
-    vector<int> nums = {-1,-1,0,1 };
-    vector<vector<int>> re=threeSum(nums);
+    vector<int> nums = { -1,-1,0,1 };
+    vector<vector<int>> re = threeSum(nums);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
