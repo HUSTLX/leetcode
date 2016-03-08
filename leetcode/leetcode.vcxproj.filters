@@ -18,7 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="2-Add Two Numbers .cpp">
+    <ClCompile Include="67. Add Binary.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

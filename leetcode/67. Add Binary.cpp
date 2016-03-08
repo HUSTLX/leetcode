@@ -12,7 +12,7 @@ string addBinary(string a, string b) {
         int na = i < a.size() ? (a[a.size() - 1 - i] - '0') : 0;
         int nb = i < b.size() ? (b[b.size() - 1 - i] - '0') : 0;
         int sum = na + nb + carry;
-        res =to_string(sum % 2)+res;
+        res = to_string(sum % 2) + res;
         carry = sum / 2;
     }
     if (carry) res = '1' + res;
@@ -23,24 +23,3 @@ int main() {
     string a = "11";
     string re = addBinary(a, b);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
