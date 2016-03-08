@@ -16,30 +16,3 @@ vector<int> plusOne(vector<int>& digits) {
     reverse(res.begin(), res.end());
     return res;
 }
-
-int main() {
-    string b = "11";
-    string a = "11";
-    string re = addBinary(a, b);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
