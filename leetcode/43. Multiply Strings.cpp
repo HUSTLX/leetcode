@@ -13,9 +13,9 @@ string multiply(string num1, string num2) {
         int a = num1[i] - '0';
         for (int j = sb - 1; j >= 0; j--) {
             int b = num2[j] - '0';
-            int product = a*b;  
+            int product = a*b;
             int carry = (temp[j + i + 1] + product) / 10;
-            temp[j + i + 1] = (temp[j + i + 1]+product) % 10;
+            temp[j + i + 1] = (temp[j + i + 1] + product) % 10;
             int x = 0;
             while (carry) {
                 int p = temp[j + i - x] + carry;
@@ -38,24 +38,4 @@ int main() {
     string a = "0";
     string res = multiply(a, b);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

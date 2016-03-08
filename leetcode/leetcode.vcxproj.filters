@@ -18,7 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="66. Plus One.cpp">
+    <ClCompile Include="43. Multiply Strings.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
