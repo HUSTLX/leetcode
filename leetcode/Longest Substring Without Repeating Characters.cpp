@@ -9,7 +9,7 @@ int lengthOfLongestSubstring(string s) {
     int max_l = 0;
     int begin = 0;
     for (int i = 0; i < s.size(); i++) {
-        begin = max(temp[s[i]]+1, begin);
+        begin = max(temp[s[i]] + 1, begin);
         temp[s[i]] = i;
         max_l = max(max_l, i - begin + 1);
     }
@@ -18,26 +18,5 @@ int lengthOfLongestSubstring(string s) {
 int main() {
     string b = "aabc";
     string a = "0";
-    int res=lengthOfLongestSubstring(b);
+    int res = lengthOfLongestSubstring(b);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
